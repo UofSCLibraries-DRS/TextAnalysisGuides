@@ -1,7 +1,9 @@
-####Table of Contents
+###Table of Contents
 format: jb-book
-root: 
+root: index
 parts:
  - caption: Beginning Text Analysis
-    chapters:
-        -file: Text_Analysis
+    chapters: Notebooks
+        -file: notebooks/Text_Analysis.ipynp
+    chapters: Data
+        -file: data/alice_in_wonderland.txt
